@@ -68,7 +68,7 @@ namespace ImageCrawler
 
                 foreach (System.IO.DirectoryInfo dirInfo in subDirs)
                 {
-                    // Resursive call for each subdirectory.
+                    // Recursive call for each subdirectory.
                     WalkDirectoryTree(dirInfo);
                 }
             }
